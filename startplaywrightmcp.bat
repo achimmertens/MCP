@@ -1,0 +1,1 @@
+npx @executeautomation/playwright-mcp-server --port 8931 --output-dir ./

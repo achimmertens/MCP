@@ -1,0 +1,15 @@
+{
+  "match": "http://localhost:8082/midpoint/login*",
+  "actions": [
+    {
+      "type": "extract",
+      "name": "html",
+      "selector": "html",
+      "property": "outerHTML"
+    },
+    {
+      "type": "sendToChatGPT",
+      "message": "Dies ist der HTML-Code der MidPoint-Login-Seite:\n\n{{html}}"
+    }
+  ]
+}
