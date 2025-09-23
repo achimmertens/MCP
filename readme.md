@@ -24,7 +24,7 @@ Lege darin eine Datei namens config.json an. Diese enthält die Konfiguration f�
 Starte dann den Proxy-Server über die DOS Konsole. Bei den meisten Systemen geht das mit folgendem Befehl (sofern Node.js installiert ist):
 
 
-> npx @srbhptl39/mcp-superassistant-proxy@latest --config D:\mcp\config.json
+> npx @srbhptl39/mcp-superassistant-proxy@latest --config D:\Users\User\git\mcp\config.json
 
 Die Konfig Datei sieht so aus:
 ```

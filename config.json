@@ -5,16 +5,14 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "D:/mcp/brave"
+        "D:\\Users\\User\\git\\mcp\\brave"
       ]
     },
     "browser": {
       "command": "node",
       "args": [
-        "D:/mcp/server-browser.js"
+        "D:\\Users\\User\\git\\mcp"
       ]
     }
   }
 }
-
-

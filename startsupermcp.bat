@@ -1,1 +1,1 @@
-npx @srbhptl39/mcp-superassistant-proxy@latest --config D:\mcp\config.json
+npx @srbhptl39/mcp-superassistant-proxy@latest --config D:\Users\User\git\mcp\config.json
