@@ -4,6 +4,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { chromium } from "playwright";
+import fs from "fs";
 
 const server = new McpServer({
   name: "browser-server",
@@ -13,6 +14,33 @@ const server = new McpServer({
 // global state for browser/page so tools can reuse it
 let browser;
 let page;
+
+// Lade Cookies aus cookies.json Datei und füge sie im Browser-Kontext hinzu
+async function loadCookies(context, cookiePath) {
+  try {
+    if (fs.existsSync(cookiePath)) {
+      const cookiesString = fs.readFileSync(cookiePath, "utf-8");
+      const cookies = JSON.parse(cookiesString);
+      await context.addCookies(cookies);
+      console.log("[Browser MCP] Loaded cookies from", cookiePath);
+    } else {
+      console.log("[Browser MCP] No cookies file found at", cookiePath);
+    }
+  } catch (err) {
+    console.log("[Browser MCP] Error loading cookies:", err.message);
+  }
+}
+
+// Speichere aktuelle Cookies in cookies.json Datei
+async function saveCookies(context, cookiePath) {
+  try {
+    const cookies = await context.cookies();
+    fs.writeFileSync(cookiePath, JSON.stringify(cookies, null, 2));
+    console.log("[Browser MCP] Saved cookies to", cookiePath);
+  } catch (err) {
+    console.log("[Browser MCP] Failed to save cookies:", err.message);
+  }
+}
 
 function log(...args) {
   console.log("[Browser MCP]", ...args);
@@ -32,11 +60,13 @@ server.tool(
     }
     if (!page) {
       const ctx = await browser.newContext();
+      await loadCookies(ctx, "./cookies.json");
       page = await ctx.newPage();
     }
     try {
       await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
       log("Navigated to", url);
+      await saveCookies(page.context(), "./cookies.json");
       return { content: [{ type: "text", text: `Seite geöffnet: ${url}` }] };
     } catch (err) {
       log("openPage error:", err?.message ?? err);
