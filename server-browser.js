@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+// server-browser.js
+// A MCP server that can control a browser via Playwright
+// Usage: node server-browser.js
 
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";

@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="27.1.4">
+  <diagram name="Seite-1" id="mBxHfKvgY4EXK5m1CUnh">
+    <mxGraphModel dx="587" dy="753" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MKGplmZ155Y6yzdS8VuJ-1" target="MKGplmZ155Y6yzdS8VuJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MKGplmZ155Y6yzdS8VuJ-1" target="MKGplmZ155Y6yzdS8VuJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MKGplmZ155Y6yzdS8VuJ-1" target="MKGplmZ155Y6yzdS8VuJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-1" value="Freizugebenes Objekt" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-4" value="Ordner auf Festplatte" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-6" value="lokales Tool" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MKGplmZ155Y6yzdS8VuJ-8" target="MKGplmZ155Y6yzdS8VuJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-8" value="MCP Proxy" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MKGplmZ155Y6yzdS8VuJ-10" target="MKGplmZ155Y6yzdS8VuJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-10" value="Browser + Erweiterung" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-12" value="KI" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="590" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,56 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Seite-1" id="mBxHfKvgY4EXK5m1CUnh">
+    <mxGraphModel dx="1426" dy="850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MKGplmZ155Y6yzdS8VuJ-8" target="MKGplmZ155Y6yzdS8VuJ-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MKGplmZ155Y6yzdS8VuJ-8" target="F8BaUs72dL_-M7CU_aCQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="210" as="sourcePoint" />
+            <mxPoint x="218" y="301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-4" value="Ordner auf Festplatte" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="189" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F8BaUs72dL_-M7CU_aCQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="MKGplmZ155Y6yzdS8VuJ-6" target="F8BaUs72dL_-M7CU_aCQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-6" value="Zu untersuchende Webseite" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="45" y="413" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-8" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;MCP Proxy&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;[mcp-superassistant-proxy] SSE endpoint: http://localhost:3006/sse&lt;/span&gt;&lt;div&gt;&amp;nbsp;POST messages: http://localhost:3006/message&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="45" y="65" width="168" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="MKGplmZ155Y6yzdS8VuJ-10" target="MKGplmZ155Y6yzdS8VuJ-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F8BaUs72dL_-M7CU_aCQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="MKGplmZ155Y6yzdS8VuJ-10" target="MKGplmZ155Y6yzdS8VuJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-10" value="Browser + MCP Erweiterung" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="294" y="109" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MKGplmZ155Y6yzdS8VuJ-12" value="Chat KI + MCP Prompt" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="480" y="109" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F8BaUs72dL_-M7CU_aCQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="F8BaUs72dL_-M7CU_aCQ-1" target="MKGplmZ155Y6yzdS8VuJ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F8BaUs72dL_-M7CU_aCQ-1" value="ggf. anderes lokales Tool" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="304" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F8BaUs72dL_-M7CU_aCQ-3" value="MCP Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="45" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
