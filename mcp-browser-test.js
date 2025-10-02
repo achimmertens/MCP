@@ -1,5 +1,12 @@
 #!/usr/bin/env node
 
+// mcp-browser-test.js
+// Testet das MCP-Proxy in einem Browser indem es die Tools openPage und getText aufrruft
+// und die Ergebnisse anzeigt. Verwendet den SSE-Endpoint zum Empfangen von Nachrichten.
+// Benötigt Node.js 18+
+// Usage: node mcp-browser-test.js
+// Voraussetzung: MCP Proxy läuft und ist über http://localhost:3006 erreichbar
+
 import fetch from "node-fetch";
 import { EventSource } from "eventsource";
 

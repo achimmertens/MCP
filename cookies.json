@@ -1,14 +1,1 @@
-[
-  {
-    "name": "ChurchTools_ct_feg-eschweiler",
-    "value": "nhk7tnqm5e1098s3neif2p8cmm",
-    "domain": "feg-eschweiler.church.tools",
-    "path": "/",
-    "expires": 1793335778.944868,
-    "httpOnly": true,
-    "secure": true,
-    "sameSite": "None",
-    "partitionKey": "https://church.tools",
-    "_crHasCrossSiteAncestor": false
-  }
-]
+[]

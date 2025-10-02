@@ -4,28 +4,33 @@
 MCP (Model Context Protocol) ist eine standardisierte Schnittstelle, mit der Sprachmodelle auf externe Datenquellen, Tools und lokale Dateien zugreifen können – kontrolliert, sicher und lokal über einen Proxy.
 ![alt text](image-11.png)
 
+Mein Ziel ist es, das Chatgpt & Co auf Webseiten zugreifen kann, auf die ich mich eingeloggt habe. Ich möchte z.B., dass ChatGPT die Fehlermeldungen sieht, die ich nur erhalte, wenn ich eingeloggt bin. Oder dass ChatGPT meine Bilanzen eines Berechnungstools sieht und auswertet.
+
 # MCP Server für Browser Einrichten
 
-server-browser.js Datei erstellen
+server-browser.js Datei erstellen, falls nicht vorhanden. Danach:
+
 npm init -y
 npm install @modelcontextprotocol/sdk playwright
-npm install zod
-npx playwright install
+??? npm install zod
+npm install node-fetch eventsource
+??? npx playwright install
 
 MCP Server für Browser starten:
 node server-browser.js
+
+Add "type": "module" to D:\Users\User\git\mcp\package.json.
+  ...
+  "main": "mcp-browser-test.js",
+  "type": "module",
+  "scripts": {
+  ...
 
 # Lokalen MCP-Proxy-Server einrichten und starten
 
 Erstelle einen neuen Ordner auf deinem Computer, z.B. auf dem Desktop.
 
 Lege darin eine Datei namens config.json an. Diese enthält die Konfiguration für den MCP-Zugriff.
-
-Starte dann den Proxy-Server über die DOS Konsole. Bei den meisten Systemen geht das mit folgendem Befehl (sofern Node.js installiert ist):
-
-
-> npx @srbhptl39/mcp-superassistant-proxy@latest --config D:\Users\User\git\mcp\config.json
-
 Die Konfig Datei sieht so aus:
 ```
 {
@@ -35,12 +40,29 @@ Die Konfig Datei sieht so aus:
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "D:/mcp/brave"
+        "D:\\Users\\User\\git\\mcp\\brave"
+      ]
+    },
+    "browser": {
+      "command": "node",
+      "args": [
+        "D:\\Users\\User\\git\\mcp"
       ]
     }
   }
 }
 ```
+
+Starte dann den Proxy-Server über die DOS Konsole. Bei den meisten Systemen geht das mit folgendem Befehl (sofern Node.js installiert ist):
+
+
+> npx @srbhptl39/mcp-superassistant-proxy@latest --config D:\Users\User\git\mcp\config.json
+
+bzw.:
+Starten in der Powershell:
+PS D:\Users\User\git\mcp> .\startsupermcp.bat
+
+
 
 Output:
 [mcp-superassistant-proxy] Starting server filesystem: npx -y @modelcontextprotocol/server-filesystem D:/mcp/brave
@@ -61,8 +83,13 @@ Erstellen von mcp-browser-test.js
 
 npm install node-fetch eventsource
 
+$ node mcp-browser-test.js
 
+Das Tool testet das MCP-Proxy in einem Browser, indem es die Tools openPage und getText aufrruft
+und die Ergebnisse anzeigt. Es verwendet den SSE-Endpoint zum Empfangen von Nachrichten.
+Voraussetzung: MCP Proxy läuft und ist über http://localhost:3006 erreichbar
 
+![alt text](image-15.png)
 
 
 
@@ -130,6 +157,26 @@ Nachtrag: Das geht auch ohne den MCP Proxy. Der Copilot in VSCode kann von Hause
 
 :-/
 
+# So geht es
+Ich habe gestartet:
+$ node server-browser.js
+
+
+> npx @srbhptl39/mcp-superassistant-proxy@latest --config D:\Users\User\git\mcp\config.json
+
+bzw.:
+Starten in der Powershell:
+PS D:\Users\User\git\mcp> .\startsupermcp.bat
+
+Im Microsoft Edge Browser habe ich den MCP Superassistant aktiviert.
+
+Ich habe dann den Inhalt vom MCP Insert als Prompt ausgeführt:
+![](image-8.png)
+Da drunter habe ich folgenden Prompt eingegeben:
+User Interaction Starts here: Ich möchte dass du auf https://feg-eschweiler.church.tools/?q=finance#/budgets/costcenters mit meinem Account zugreifst. Bitte verwende dazu den schon geöffneten Tab im Browser. Bitte beschreibe, was du siehst.
+Dann muss ich ihm mit "run" erlauben, das zu tun und mit "insert Text File", den gewonnenen Inhalt bei ChatGPT übergeben.
+
+![alt text](image-14.png)
 
 # Links
 

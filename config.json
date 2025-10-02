@@ -11,7 +11,7 @@
     "browser": {
       "command": "node",
       "args": [
-        "D:\\Users\\User\\git\\mcp"
+        "D:\\Users\\User\\git\\mcp\\server-browser.js"
       ]
     }
   }
