@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// browser-control.js
+// A MCP server that can control a browser via Playwright
 
 import { chromium } from 'playwright';
 import http from 'http';
