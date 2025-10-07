@@ -1,6 +1,10 @@
 # Readme.md
-Diese Dokumentation wurde erstellt von Achim Mertens
-Der Code unterliegt keiner Lizenz und ist öffentlich verfügbar.
+Diese Dokumentation wurde erstellt von Achim Mertens.
+
+Die von mir erstellten Scripte unterliegen keiner Lizenz und sind öffentlich verfügbar.
+
+![](https://cdn.prod.website-files.com/603164e08678e20760ec256c/67b80eadeddc78d9b61c907f_MCP_quality_assurance.png)
+[Quelle](https://cdn.prod.website-files.com/603164e08678e20760ec256c/67b80eadeddc78d9b61c907f_MCP_quality_assurance.png)
 
 # Das Model Context Protocol (MCP)
 
@@ -124,6 +128,7 @@ Es kann sogar eine Datei erstellen:
 ![alt text](image-12.png)
 
 # Auf eine private Webseite zugreifen
+
 Was ich ja vor Allem möchte ist, dass die KI dass sieht, was ich auf meinem Browser sehe, auch dann, wenn ich irgendwo eingeloggt bin, wo die KI von alleine 
 nicht hinkommen kann.
 
@@ -139,7 +144,7 @@ Im Microsoft Edge Browser habe ich den MCP Superassistant aktiviert.
 Ich habe dann den Inhalt vom MCP Insert als Prompt ausgeführt:
 ![](image-8.png)
 Da drunter habe ich folgenden Prompt eingegeben:
-User Interaction Starts here: Ich möchte dass du auf https://feg-eschweiler.church.tools/?q=finance#/budgets/costcenters mit meinem Account zugreifst. Bitte verwende dazu den schon geöffneten Tab im Browser. Bitte beschreibe, was du siehst.
+User Interaction Starts here: Ich möchte dass du via MCP auf https://feg-eschweiler.church.tools/?q=finance#/budgets/costcenters mit meinem Account zugreifst. Bitte verwende dazu den schon geöffneten Tab im Browser. Bitte beschreibe, was du siehst.
 
 Dann muss ich ihm mit "run" erlauben, das zu tun und mit "insert Text File", den gewonnenen Inhalt bei ChatGPT übergeben.
 

@@ -1,0 +1,397 @@
+FeG Eschweiler
+Personen
+Gruppen
+Kalender
+Ressourcen
+Events
+Beiträge
+Wiki
+Finanzen
+Schnellsuche
+Admin-Menü
+Admin-Menü
+AM
+FINANZEN
+ESCHWEILER · 2025
+Übersicht
+Buchungen
+Budgets
+Kontoauszüge
+Auswertungen
+Spender
+Budgets
+Einträge ohne Budget anzeigen
+Einträge ohne Budget anzeigen
+Budget hinzufügen
+Konten
+Kostenstellen
+Kostenstelle 
+	
+	
+Verbraucht-Vorjahr (2024)
+Geplant-Vorjahr (2024)
+	
+Geplant
+	
+Stand
+	
+Verbraucht
+	
+Übrig
+	
+
+Spenden u. Kollekten (nicht zweckgebunden)
+299
+	
+	
+-155.116,54 €
+-142.000,00 €
+	
+-180.000,00 €
+	
+0%
+	
+-111.611,09 €
+	
+-68.388,91 €
+	
+
+
+Technik
+300
+	
+	
+742,66 €
+1.000,00 €
+	
+3.000,00 €
+	
+15%
+	
+429,00 €
+	
+2.571,00 €
+	
+
+
+Musik
+301
+	
+	
+388,31 €
+1.000,00 €
+	
+1.000,00 €
+	
+0%
+	
+0,00 €
+	
+1.000,00 €
+	
+
+
+Veranstaltungen übergreifend
+302
+	
+	
+k. A.
+k. A.
+	
+160,05 €
+	
+0%
+	
+-320,21 €
+	
+480,26 €
+	
+
+
+Öffentlichkeitsarbeit
+303
+	
+	
+564,81 €
+900,00 €
+	
+800,00 €
+	
+34%
+	
+265,28 €
+	
+534,72 €
+	
+
+
+Gottesdienst
+304
+	
+	
+1.198,08 €
+1.100,00 €
+	
+1.550,00 €
+	
+81%
+	
+1.251,43 €
+	
+298,57 €
+	
+
+
+Seelsorge/Gebet
+305Seels
+	
+	
+-670,10 €
+200,00 €
+	
+1.400,00 €
+	
+60%
+	
+836,11 €
+	
+563,89 €
+	
+
+
+Kleingruppen
+306
+	
+	
+153,90 €
+600,00 €
+	
+1.400,00 €
+	
+4%
+	
+46,00 €
+	
+1.354,00 €
+	
+
+
+Hausverwaltung/laufende Kosten
+307
+	
+	
+15.051,34 €
+20.000,00 €
+	
+15.000,00 €
+	
+73%
+	
+10.872,56 €
+	
+4.127,44 €
+	
+
+
+Hauswirtschaft
+308
+	
+	
+-679,24 €
+2.000,00 €
+	
+500,00 €
+	
+0%
+	
+-379,82 €
+	
+879,82 €
+	
+
+
+Bund FeG
+310
+	
+	
+5.437,50 €
+8.500,00 €
+	
+10.000,00 €
+	
+53%
+	
+5.290,00 €
+	
+4.710,00 €
+	
+
+
+Kinder- und Jugend
+313
+	
+	
+709,54 €
+2.800,00 €
+	
+3.240,00 €
+	
+14%
+	
+437,75 €
+	
+2.802,25 €
+	
+
+
+Randgruppen
+315
+	
+	
+1.124,50 €
+2.500,00 €
+	
+2.500,00 €
+	
+0%
+	
+-119,83 €
+	
+2.619,83 €
+	
+
+
+Reinigungsdienst
+316
+	
+	
+7.209,71 €
+7.500,00 €
+	
+8.000,00 €
+	
+64%
+	
+5.069,98 €
+	
+2.930,02 €
+	
+
+
+Pastor
+317
+	
+	
+64.076,98 €
+68.367,00 €
+	
+70.000,00 €
+	
+71%
+	
+49.344,65 €
+	
+20.655,35 €
+	
+
+
+Finanzen
+318
+	
+	
+k. A.
+k. A.
+	
+24.000,00 €
+	
+122%
+	
+29.237,71 €
+	
+-5.237,71 €
+	
+
+
+Gemeindefreizeiten
+319
+	
+	
+k. A.
+646,91 €
+	
+646,91 €
+	
+0%
+	
+-7.590,00 €
+	
+8.236,91 €
+	
+
+
+Hausverwaltung/Anschaffungen u. Renovierung
+323
+	
+	
+k. A.
+k. A.
+	
+5.000,00 €
+	
+0%
+	
+0,00 €
+	
+5.000,00 €
+	
+
+
+BIBU u. BU-Freizeiten
+338
+	
+	
+k. A.
+k. A.
+	
+500,00 €
+	
+0%
+	
+0,00 €
+	
+500,00 €
+	
+
+
+Kanufreizeiten
+339
+	
+	
+488,29 €
+1.127,71 €
+	
+1.127,71 €
+	
+0%
+	
+-456,98 €
+	
+1.584,69 €
+	
+
+
+Einträge 1–20 von 20
+Einträge pro Seite
+25
+Weiteres in "Finanzen"
+Buchungen
+
+Liste aller einsehbaren Buchungen und mit der entsprechenden Berechtigung auch die Möglichkeit, Buchungen zu erstellen.
+
+Auswertungen
+
+Werte die Buchungen aus und bekomme einen Überblick über die Finanzsituation.
+
+Spender
+
+Erhalte eine Übersicht über Spender und erstelle entsprechende Spendenbescheinigungen.
